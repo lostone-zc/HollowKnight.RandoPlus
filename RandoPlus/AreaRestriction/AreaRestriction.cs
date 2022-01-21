@@ -24,7 +24,7 @@ namespace RandoPlus.AreaRestriction
 
         private static void BeforeGameStart()
         {
-            if (!RandoPlus.GS.AreaBlitz) return;
+            if (!RandoPlus.GS.随机到七张图内) return;
 
             // Not rando file
             if (RandomizerMod.RandomizerMod.RS.GenerationSettings is null) return;
@@ -33,7 +33,7 @@ namespace RandoPlus.AreaRestriction
 
             ItemChangerMod.Modules.GetOrAdd<AreaLimitModule>().PlacedAreas = new(PlacedAreas);
 
-            if (RandoPlus.GS.PreferMultiShiny)
+            if (RandoPlus.GS.一白点多物品)
             {
                 foreach (AbstractPlacement pmt in ItemChanger.Internal.Ref.Settings.GetPlacements())
                 {

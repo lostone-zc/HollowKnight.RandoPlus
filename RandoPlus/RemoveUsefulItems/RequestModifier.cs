@@ -11,9 +11,9 @@ namespace RandoPlus.RemoveUsefulItems
     {
         public static readonly (string oldItem, string newItem, Func<bool> isActive)[] settings = new (string oldItem, string newItem, Func<bool> isActive)[]
         {
-            (ItemNames.Lumafly_Lantern, Consts.NoLantern,() => RandoPlus.GS.NoLantern),
-            (ItemNames.Ismas_Tear, Consts.NoTear, () => RandoPlus.GS.NoTear),
-            (ItemNames.Swim, Consts.NoSwim, () => RandoPlus.GS.NoSwim)
+            (ItemNames.Lumafly_Lantern, Consts.NoLantern,() => RandoPlus.GS.没有灯笼),
+            (ItemNames.Ismas_Tear, Consts.NoTear, () => RandoPlus.GS.没有酸泪),
+            (ItemNames.Swim, Consts.NoSwim, () => RandoPlus.GS.没有游泳)
         };
 
         public static void Hook()

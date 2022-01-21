@@ -2,23 +2,23 @@
 {
     public class GlobalSettings
     {
-        public bool DefineRefs;
+        public bool 自定义用总开关;
 
-        public bool MrMushroom;
+        public bool 蘑菇先生随机;
         
-        public bool NoTear;
-        public bool NoLantern;
-        public bool NoSwim;
+        public bool 没有酸泪;
+        public bool 没有灯笼;
+        public bool 没有游泳;
 
-        public bool AreaBlitz;
-        public bool PreferMultiShiny;
+        public bool 随机到七张图内;
+        public bool 一白点多物品;
 
         [Newtonsoft.Json.JsonIgnore]
-        public bool Any => DefineRefs
-            || MrMushroom
-            || NoSwim
-            || NoTear
-            || NoLantern
-            || AreaBlitz;
+        public bool Any => 自定义用总开关
+            || 蘑菇先生随机
+            || 没有游泳
+            || 没有酸泪
+            || 没有灯笼
+            || 随机到七张图内;
     }
 }

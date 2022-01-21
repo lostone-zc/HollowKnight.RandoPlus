@@ -104,7 +104,7 @@ namespace RandoPlus.MrMushroom
 
         private static void AddMrMushroom(RequestBuilder rb)
         {
-            if (RandoPlus.GS.MrMushroom)
+            if (RandoPlus.GS.蘑菇先生随机)
             {
                 rb.AddItemByName(Consts.MrMushroomLevelUp, 7);
                 foreach (string loc in mushrooms)
@@ -112,7 +112,7 @@ namespace RandoPlus.MrMushroom
                     rb.AddLocationByName(loc);
                 }
             }
-            else if (RandoPlus.GS.DefineRefs)
+            else if (RandoPlus.GS.自定义用总开关)
             {
                 foreach (string loc in mushrooms)
                 {

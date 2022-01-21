@@ -18,7 +18,7 @@ namespace RandoPlus.AreaRestriction
 
         private static void ApplyAreaLimit(RequestBuilder rb)
         {
-            if (!RandoPlus.GS.AreaBlitz) return;
+            if (!RandoPlus.GS.随机到七张图内) return;
 
             AreaRestriction.PlacedAreas.Clear();
             AreaRestriction.ExcludedAreas.Clear();

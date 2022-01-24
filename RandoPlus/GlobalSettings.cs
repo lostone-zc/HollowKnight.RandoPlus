@@ -5,6 +5,7 @@
         public bool 自定义用总开关;
 
         public bool 蘑菇先生随机;
+        public bool 复制蘑菇孢子;
         
         public bool 没有酸泪;
         public bool 没有灯笼;

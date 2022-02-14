@@ -1,4 +1,4 @@
-﻿namespace RandoPlus.RemoveUsefulItems
+namespace RandoPlus.RemoveUsefulItems
 {
     public static class RemoveUsefulItems
     {

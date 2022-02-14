@@ -1,4 +1,4 @@
-﻿using ItemChanger;
+using ItemChanger;
 using ItemChanger.Items;
 
 namespace RandoPlus.MrMushroom

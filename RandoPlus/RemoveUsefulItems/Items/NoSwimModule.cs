@@ -1,4 +1,4 @@
-﻿using GlobalEnums;
+using GlobalEnums;
 using HutongGames.PlayMaker;
 using ItemChanger;
 using ItemChanger.Extensions;

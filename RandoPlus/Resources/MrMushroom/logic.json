@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name": "Mr_Mushroom-Fungal_Wastes",
         "logic": "Fungus2_18[top1] + Spore_Shroom + (MRMUSHROOMFOUND>0 | DREAMER3)"

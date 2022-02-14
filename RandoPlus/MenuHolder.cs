@@ -1,4 +1,4 @@
-﻿using MenuChanger;
+using MenuChanger;
 using MenuChanger.MenuElements;
 using MenuChanger.MenuPanels;
 using MenuChanger.Extensions;

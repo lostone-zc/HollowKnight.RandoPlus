@@ -1,4 +1,4 @@
-﻿namespace RandoPlus
+namespace RandoPlus
 {
     public class GlobalSettings
     {

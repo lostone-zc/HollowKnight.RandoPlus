@@ -1,4 +1,4 @@
-﻿using ItemChanger;
+using ItemChanger;
 using System;
 using ItemChanger.Extensions;
 using HutongGames.PlayMaker.Actions;

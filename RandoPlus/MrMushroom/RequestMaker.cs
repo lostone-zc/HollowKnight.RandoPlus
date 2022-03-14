@@ -116,7 +116,7 @@ namespace RandoPlus.MrMushroom
 
         private static void AddMrMushroom(RequestBuilder rb)
         {
-            if (RandoPlus.GS.MrMushroom)
+            if (RandoPlus.GS.MrMushroomRando)
             {
                 rb.AddItemByName(Consts.MrMushroomLevelUp, 7);
                 foreach (string loc in mushrooms)

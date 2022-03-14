@@ -4,7 +4,7 @@
     {
         public bool DefineRefs;
 
-        public bool MrMushroom;
+        public bool MrMushroomRando;
         public bool DupeSporeShroom;
         
         public bool NoTear;
@@ -16,7 +16,7 @@
 
         [Newtonsoft.Json.JsonIgnore]
         public bool Any => DefineRefs
-            || MrMushroom
+            || MrMushroomRando
             || NoSwim
             || NoTear
             || NoLantern
